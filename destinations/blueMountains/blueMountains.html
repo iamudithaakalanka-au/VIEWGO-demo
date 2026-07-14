@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/Logo_W.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="blueMountains.css">
+
+      <title>VIEWGO - Feel The Nature</title>
+   </head>
+
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="/index.html" class="nav__logo">
+               <img src="assets/img/Logo_W.png" alt="image" class="nav__logo-img">
+               <span>VIEWGO</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#highlights" class="nav__link">Highlights</a>
+                  </li>
+
+                  <li>
+                     <a href="#reviews" class="nav__link">Reviews</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+            
+            <div class="nav__buttons"> 
+               <!-- Theme button -->
+               <i class="ri-moon-fill nav__theme" id="theme-button"></i>
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-apps-2-fill"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <img src="assets/img/home-bg_1.webp" alt="Blue Mountains valley at sunset" class="home__bg">
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <span class="home__eyebrow">New South Wales, Australia</span>
+                  <h1 class="home__title">Blue Mountains</h1>
+                  <p class="home__info">
+                     Discover dramatic sandstone cliffs, eucalyptus forests and sweeping valleys
+                     just 90 kilometres west of Sydney.
+                  </p>
+                  <div class="home__actions">
+                     <a href="#highlights" class="button button__light">
+                        Explore highlights <i class="ri-arrow-down-line"></i>
+                     </a>
+                     <span class="home__detail"><i class="ri-time-line"></i> Ideal stay: 2–3 days</span>
+                  </div>
+               </div>
+
+               <div class="home__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-1.png" alt="image" class="home__img">
+                     </article>
+
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-2.png" alt="image" class="home__img">
+                     </article>
+
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-3.png" alt="image" class="home__img">
+                     </article>
+
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-4.png" alt="image" class="home__img">
+                     </article>
+                  </div>
+
+                  <!-- Navigation buttons -->
+                  <div class="swiper-button-prev home__button-prev" aria-label="Previous photo">
+                     <i class="ri-arrow-left-long-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next home__button-next" aria-label="Next photo">
+                     <i class="ri-arrow-right-long-line"></i>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+         <!--==================== HIGHLIGHTS ====================-->
+         <section class="highlights section" id="highlights">
+            <div class="highlights__heading container">
+               <div>
+                  <span class="section__eyebrow">Plan your visit</span>
+                  <h2 class="section__title">An escape shaped by nature</h2>
+               </div>
+               <p class="highlights__intro">
+                  From famous lookouts to quiet walking tracks, the Blue Mountains offers an easy
+                  mix of scenery, wildlife and adventure throughout the year.
+               </p>
+            </div>
+
+            <div class="highlights__container container grid">
+               <article class="highlight__card">
+                  <i class="ri-landscape-line"></i>
+                  <h3>Iconic lookouts</h3>
+                  <p>See the Three Sisters at Echo Point and panoramic views across Jamison Valley.</p>
+               </article>
+
+               <article class="highlight__card">
+                  <i class="ri-walk-line"></i>
+                  <h3>Walking trails</h3>
+                  <p>Choose from relaxed clifftop walks, waterfall tracks and challenging bush hikes.</p>
+               </article>
+
+               <article class="highlight__card">
+                  <i class="ri-camera-3-line"></i>
+                  <h3>Wild landscapes</h3>
+                  <p>Photograph blue-hazed valleys, native wildlife and ancient sandstone formations.</p>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== REVIEWS ====================-->
+         <section class="reviews section" id="reviews">
+            <span class="section__eyebrow">Traveller stories</span>
+            <h2 class="section__title">What visitors are saying</h2>
+
+            <div class="reviews__container container grid">
+               <img src="assets/img/reviews-img.png" alt="image" class="reviews__img">
+
+               <div class="reviews__swiper swiper">
+                  <div class="swiper-wrapper">
+
+                     <div class="reviews__card swiper-slide">
+                        <h2 class="reviews__title">A spectacular weekend</h2>
+                        <p class="reviews__description">
+                           The valley views were unforgettable. We loved the walking tracks and found
+                           plenty of peaceful places away from the busiest lookouts.
+                        </p>
+
+                        <div class="reviews__profile">
+                           <img src="assets/img/reviews-profile-1.png" alt="image">
+                           
+                           <div class="reviews__info">
+                              <h3>Will</h3>
+                              <p>Photographer</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="reviews__card swiper-slide">
+                        <h2 class="reviews__title">Perfect for photography</h2>
+                        <p class="reviews__description">
+                           Sunrise over the sandstone cliffs was worth the early start. Every trail
+                           seemed to reveal another beautiful perspective.
+                        </p>
+
+                        <div class="reviews__profile">
+                           <img src="assets/img/reviews-profile-2.png" alt="image">
+                           
+                           <div class="reviews__info">
+                              <h3>Rose</h3>
+                              <p>Influencer</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="reviews__card swiper-slide">
+                        <h2 class="reviews__title">Nature at its best</h2>
+                        <p class="reviews__description">
+                           A refreshing escape from Sydney with excellent walks, friendly towns and
+                           dramatic scenery around every corner.
+                        </p>
+
+                        <div class="reviews__profile">
+                           <img src="assets/img/reviews-profile-3.png" alt="image">
+                           
+                           <div class="reviews__info">
+                              <h3>Gian</h3>
+                              <p>Blogger</p>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <!-- Navigation Buttons -->
+                  <div class="swiper-button-prev reviews__button-prev">
+                     <i class="ri-arrow-left-long-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next reviews__button-next">
+                     <i class="ri-arrow-right-long-line"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== Contact ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+               <div class="contact__data">
+                  <h2 class="section__title">Your Journey <br> Starts Here</h2>
+                  <p class="contact__description">
+                     Spark the curiosity and let us know any question you have.
+                  </p>
+
+                  <form action="#" class="contact__form">
+                     <input type="email" placeholder="Enter your email" class="contact__input" aria-label="Email address" required>
+                     <button type="submit" class="contact__button button">
+                        Contact Us
+                        <i class="ri-arrow-right-long-line"></i>
+                     </button>
+                  </form>
+               </div>
+
+               <img src="assets/img/join-img.png" alt="image" class="contact__img">
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <a href="#" class="footer__logo">
+               <img src="assets/img/Logo_W.png" alt="image" class="nav__logo-img">
+               <span>VIEWGO</span>
+            </a>
+
+            <div class="footer__content grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">About Us</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Features</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">News &amp; Blogs</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Call Centre</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Support</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Support</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Privacy Policy</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Terms &amp; Services</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Payment</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                     </a>
+
+                     <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-fill"></i>
+                     </a>
+
+                     <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-fill"></i>
+                     </a>
+
+                  </div>
+               </div>               
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By VIEWGO
+         </span>
+
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="blueMountains.js"></script>
+   </body>
+</html>
